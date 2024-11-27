@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chinedu Kingsley Amuji | WDD 130</title>
-        <meta name="description" content="Chinedu Kingsley Amuji | WDD 130 | This page tells who Chinedu is. It shows a picture of him too.">
-        <meta name="author" content="Chinedu Kingsley Amuji">
+        <meta name="description" content="Chinedu Kingsley Amuji |"WDD 130 | This page tells who Chinedu is. It shows a picture of him too.
+        meta name="author" content="Chinedu Kingsley Amuji">
     </head>
     <body>
         <header>
@@ -18,15 +18,15 @@
         <main>
             <h1>Chinedu Kingsley Amuji | WDD 130</h1>
             <img src="images/profile.jpg" alt="Hi, I am Chinedu Kingsley Amuji" width="200">
-            <p>Hi, I am Chinedu Kingsley Amuji. I am from Enugu state, Nigeria. I have a passion for programming. 
+            <p>Hi, I am Chinedu Kingsley Amuji. I am from Enugu state, Nigeria. I have passion for programming. 
                 I am a student of BYUI, majoring in software development. 
-                I own and manage a small business where I sell phone accessories products, 
+                I own and manage a small business where I sale phone accessories product, 
                 providing phone accessories solutions to hundreds of customers.</p>
         </main>
         <aside>
-            <h2>Enugu State, Nigeria</h2>
+            <h2> Enugu State, Nigeria</h2>
             <img src="images/enugu.jpg" alt="Enugu landscape">
-            <p> Enugu is a state in Nigeria. It is located in the southeast of Nigeria. It's enriched with natural resources like coal and tourist sites like waterfalls and high mountains. Enugu state is one of the peaceful and calm states to dwell in Nigeria. It's also known as one of the educational hubs in the country. The state harbors more universities than any other state in Nigeria. The state is widely known nationwide with the code: 042.</p>
+            <p> Enugu is a state in Nigeria. It is located in the south east of Nigeria. It's enriched with natural resources like; coal and tourist sites like waterfalls and high mountains. Enugu state is one of the peaceful and calm state to dwell in the country Nigeria. It's also known for as one of the educational hub in the country. The state harbours so more universities in the country than any other state in Nigeria. The state is widely known nation-wide with the code: 042. </p>
         </aside>
         <footer>
             <p>©2024 ✨ Chinedu Kingsley Amuji ✨ Enugu State, Nigeria</p>

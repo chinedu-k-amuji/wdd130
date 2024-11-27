@@ -1,0 +1,80 @@
+/* Define CSS variables */
+:root {
+    --primary-color: #0056b3; /* You can replace this with your chosen primary color */
+    --secondary-color: #008cba; /* Your secondary color */
+    --accent1-color: #ffaa00; /* An accent color */
+    --accent2-color: #a161f4;
+    --background-color: #ffffff; /* Background color */
+    --text-color: #0056b3; /* Main text color */
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--primary-color);
+}
+
+p {
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+/* Remove underlines from social media image links */
+.sociallinks a {
+    text-decoration: none;
+}
+
+/* Container limit width */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Style Hero Container using Position Absolute */
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: var(--accent-color);
+    font-size: 3em;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 400px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+}
+
+/* Social media icon styling */
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+}
