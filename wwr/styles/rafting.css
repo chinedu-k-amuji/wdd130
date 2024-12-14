@@ -151,6 +151,10 @@ p {
     .history{
          margin-top: 10px;
     }
+    .Employees {
+        display: flex;
+        text-align: center;
+    }
    .image_area{
      margin-top: 20px;
    }
