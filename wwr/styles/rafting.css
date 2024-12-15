@@ -151,6 +151,11 @@ p {
     .history{
          margin-top: 10px;
     }
+    .trip-descriptions {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
     .Employees {
         display: flex;
         text-align: center;

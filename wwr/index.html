@@ -1,36 +1,109 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="stylesheet" href="styles/styles.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chinedu Kingsley Amuji | WDD 130</title>
-        <meta name="description" content="Chinedu Kingsley Amuji | WDD 130 | This page tells who Chinedu is. It shows a picture of him too.">
-        <meta name="author" content="Chinedu Kingsley Amuji">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="about.html">Home</a>
-                <a href="wwr/">Rafting Website</a>
-                <a href="https://www.linkedin.com/login">linkedin</a>
-            </nav>
-        </header>
-        <main>
-            <h1>Chinedu Kingsley Amuji | WDD 130</h1>
-            <img src="images/profile.jpg" alt="Hi, I am Chinedu Kingsley Amuji" width="200">
-            <p>Hi, I am Chinedu Kingsley Amuji. I am from Enugu state, Nigeria. I have a passion for programming. 
-                I am a student of BYUI, majoring in software development. 
-                I own and manage a small business where I sell phone accessories products, 
-                providing phone accessories solutions to hundreds of customers.</p>
-        </main>
-        <aside>
-            <h2>Enugu State, Nigeria</h2>
-            <img src="images/enugu.jpg" alt="Enugu landscape">
-            <p> Enugu is a state in Nigeria. It is located in the southeast of Nigeria. It's enriched with natural resources like coal and tourist sites like waterfalls and high mountains. Enugu state is one of the peaceful and calm states to dwell in Nigeria. It's also known as one of the educational hubs in the country. The state harbors more universities than any other state in Nigeria. The state is widely known nationwide with the code: 042.</p>
-        </aside>
-        <footer>
-            <p>©2024 ✨ Chinedu Kingsley Amuji ✨ Enugu State, Nigeria</p>
-        </footer>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nedupal White Water Rafting Park | WDD 130</title>
+    <meta name="description" content="Nedupal White Rafting Park | WDD 130 | This page tells who we are. It shows a picture of our park too.">
+    <meta name="author" content="Chinedu Kingsley Amuji">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/wrlogo.jpg" alt="This is who we are. This is the company logo">
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="head">
+            <img src="images/waterrafting1.jpg" alt="This is who we are.">
+            <h1>Nedupal White Water Rafting Park</h1>
+            </div>
+        </div>
+        
+        <section class="newsletter">
+            <h2>Stay Updated!</h2>
+            <form action="subscribe.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        
+        <section class="cta">
+            <h2>Join Us for an Adventure!</h2>
+            <a href="trips.html" class="button">View Our Trips</a>
+        </section>
+        
+        <section class="about">
+            <h2>About Nedupal White Water Rafting Park</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/waterrafting2.jpg" alt="This is who we are">
+                    <p>At Nedupal White Water Rafting Park, our purpose is to offer fun adventurers a good adventure experience. Our mission is to create happiness for all exploring the beauty of nature. Motto: Relate to nature...</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/waterrafting3.jpg" alt="Adventurers">
+                    <p>Adventure Awaits You! We provide thrilling experiences that bring you closer to nature. Whether you are a seasoned rafter or a beginner, we have the perfect trip for you.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="history">
+            <h2>History</h2>
+            <p>Nedupal White Water Rafting Park started in 2015. Giving white water rafting experiences at its best to hundreds of thousands of our customers. It has been nine years of steady progress in the industry...</p>
+        </section>
+        
+        <section class="image_area">
+            <h2>Adventure Awaits You!</h2>
+            <div class="image_box">
+                <figure>
+                   <img src="images/waterrafting4.jpg" alt="Sailers on the Wave">
+                   <figcaption>Sailers on the Wave</figcaption>
+                </figure> 
+                <figure>  
+                   <img src="images/waterrafting5.jpg" alt="Adventurers">
+                   <figcaption>Adventurers</figcaption>
+                </figure>
+                <figure>
+                   <img src="images/waterrafting6.jpg" alt="Water Path">
+                   <figcaption>Water Path</figcaption>
+                </figure>
+                <figure>
+                   <img src="images/waterrafting1.jpg" alt="Sailing Boats">
+                   <figcaption>Sailing Boats</figcaption>
+                </figure> 
+                <figure>  
+                   <img src="images/waterrafting2.jpg" alt="Fun Catchers">
+                   <figcaption>Fun Catchers</figcaption>
+                </figure> 
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebooklogo1.webp" alt="Facebook logo">
+            </a>
+            <a href="https://x.com">
+                <img src="images/xlogo.jpeg" alt="X logo">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/Instagramlogo.jpeg" alt="Instagram logo">
+            </a>
+        </nav>
+    </footer>
+</body>
 </html>
